@@ -10,7 +10,7 @@ export default function MoviesSearch(props) {
         // const response = await fetch(url)
         // const data= await response.json()
         try {
-          const response = await fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=f6370672&s=${props.title}`);
+          const response = await fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=f6370672&s=${props.title}`);
           const data = await response.json();
     
           console.log(data); // Log the actual data received from the API
