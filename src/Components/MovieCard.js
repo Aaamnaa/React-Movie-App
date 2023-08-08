@@ -9,7 +9,7 @@ export default function MovieCard({movieClick, SetDisplay}) {
 
   useEffect(()=>{
     axios
-    .get(`http://www.omdbapi.com/?i=${movieClick}&apikey=f6370672`)
+    .get(`https://www.omdbapi.com/?i=${movieClick}&apikey=f6370672`)
     .then(response =>  setMovieInfo(response.data))
   },[movieClick]) 
 
