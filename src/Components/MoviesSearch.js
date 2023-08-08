@@ -44,9 +44,9 @@ export default function MoviesSearch(props) {
             <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
         </button>
       </span>
-      <input type="search" 
+       <input type="search" 
       name="q" 
-      className="py-2 text-md text-white bg-gray-900 rounded-md pl-10 focus:outline-none focus:bg-white focus:text-gray-900 w-30 sm:w-96" 
+      className="py-2 text-sm cursor-pointer  text-white bg-gray-900 rounded-md pl-10 focus:outline-none focus:bg-white focus:text-gray-900 w-30 sm:w-96" 
       placeholder="Search..." 
       autoComplete="off"
       value = {props.title}
