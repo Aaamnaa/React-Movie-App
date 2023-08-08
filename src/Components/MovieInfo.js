@@ -16,7 +16,7 @@ export default function MovieInfo({item,updateClick, SetDisplay }) {
     <div className="font-semibold">{`Type: ${item.Type}`}</div>
   </div>
 </div>
-      
+    </div>
            
      )
     }
